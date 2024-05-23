@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+.section {
+  width: 100%;
+  height: 100vh;
+  overflow: scroll;
+  font-family: "Sora";
+  background-color: black;
+  color: #fff;
+}
+.section .NavBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 8%;
+}
+.section .NavBar .Button {
+  border: 2px solid #fff;
+  width: 200px;
+  height: 50px;
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.section .NavBar .Button p {
+  text-align: center;
+}
+.section .NavBar .Button p a {
+  text-decoration: none;
+}
+.section .Content {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  height: 530px;
+}
+.section .Content .Content1 {
+  width: 30%;
+  display: inline-block;
+}
+.section .Content .Content1 p {
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  color: #cccad1;
+}
+.section .Content .Content1 p span {
+  background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.section .Content .Content2 {
+  width: 40%;
+  padding: 20px;
+  font-weight: 500;
+}
+.section .Content .Content2 .para1 {
+  font-size: 70px;
+  position: relative;
+  bottom: 90px;
+  color: #EEE5FF;
+}
+.section .Content .Content2 .para1 span {
+  background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.section .Content .Content2 .para2 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #bdbdc6;
+  line-height: 28px;
+  position: relative;
+  bottom: 120px;
+}
+.section .Review {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  color: #EEE5FF;
+}
+.section .Review-Container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.section .Review-Container .Ratings {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section .Details {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.section .Details .content {
+  width: 50%;
+}
+.section .Details .content .Big {
+  font-size: 40px;
+  font-weight: 550;
+  color: #EEE5FF;
+  margin-top: 100px;
+}
+.section .Details .content .small {
+  font-size: 17px;
+  font-weight: 400;
+  color: #bdbdc6;
+  line-height: 28px;
+  margin-top: 40px;
+}
+.section .Details .content .Button {
+  border: 2px solid #fff;
+  width: 300px;
+  height: 60px;
+  margin-top: 40px;
+  background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+  color: #000;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border: none;
+}
+.section .Details .content .Button .icon {
+  font-size: 20px;
+  color: #fff;
+  font-weight: lighter;
+}
+.section .Details .content .Button a {
+  text-decoration: none;
+  color: #fff;
+}
+.section .Details .magic {
+  margin-top: 100px;
+}
+.section .Deals {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  width: 45%;
+}
+.section .Deals p {
+  font-size: 40px;
+  font-weight: 550;
+  color: #EEE5FF;
+  margin-top: 100px;
+}
+.section .Container {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.section .Container .Card {
+  width: 38%;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: #0F0821;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  padding: 20px;
+}
+.section .Container .Card .Small {
+  font-size: 17px;
+  font-weight: 400;
+  color: #bdbdc6;
+  line-height: 28px;
+}
+.section .Container .Card .Big {
+  font-size: 25px;
+  font-weight: 500;
+  color: #EEE5FF;
+}
+.section .Container .Card img {
+  margin-top: 20px;
+  width: 100%;
+  height: 80%;
+}
+.section .Container .down {
+  margin-top: 150px;
+}
+.section .Box {
+  width: 80%;
+  height: 250px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: #0F0821;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  padding: 20px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 150px;
+}
+.section .Box .Cards {
+  display: inline-block;
+  width: 500px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+.section .Box .Cards .Big {
+  font-size: 25px;
+  font-weight: 500;
+  color: #EEE5FF;
+}
+.section .Box .Cards .Small {
+  font-size: 17px;
+  font-weight: 400;
+  color: #bdbdc6;
+  line-height: 28px;
+}
+.section .Box1 {
+  width: 80%;
+  padding: 20px;
+  position: relative;
+  left: 50%;
+  height: 300px;
+  transform: translate(-50%);
+  margin-top: 80px;
+}
+.section .Box1 .Content {
+  display: inline-block;
+  width: 700px;
+  position: relative;
+  left: 50%;
+  height: 90%;
+  transform: translate(-50%);
+  text-align: center;
+}
+.section .Box1 .Content .Big {
+  font-size: 40px;
+  font-weight: 500;
+  color: #EEE5FF;
+}
+.section .Box1 .Content .Small {
+  font-size: 17px;
+  font-weight: 400;
+  color: #bdbdc6;
+  line-height: 28px;
+}
+.section .Benefits {
+  width: 80%;
+  padding: 20px;
+  position: relative;
+  left: 50%;
+  height: 400px;
+  transform: translate(-50%);
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+.section .Benefits .Boxx1 {
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: #0F0821;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  width: 500px;
+  height: 360px;
+  padding: 10px;
+}
+.section .Benefits .Boxx1 .Big {
+  font-size: 25px;
+  font-weight: 500;
+  color: #EEE5FF;
+  margin-left: 20px;
+}
+.section .Benefits .Boxx1 .Small {
+  font-size: 17px;
+  font-weight: 400;
+  color: #bdbdc6;
+  line-height: 28px;
+  margin-left: 20px;
+}
+.section .End {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(90deg, #F87516 0%, #5E11FF 100%);
+}
+.section .End .p1 {
+  font-size: 12px;
+}
+.section .End .p2 li {
+  list-style: none;
+  display: inline;
+  margin-left: 30px;
+}
+.section .End .p2 li a {
+  text-decoration: none;
+  color: rgb(204, 193, 193);
+  font-size: 12px;
+}
+
+@media (max-width: 1600px) {
+  .section .Content {
+    height: 500px;
+  }
+  .section .Content .Content2 .para1 {
+    font-size: 60px;
+  }
+  .section .Content .Content2 .para2 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1300px) {
+  .section .Benefits .Boxx1 .Small {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1230px) {
+  .section .Content {
+    height: 300px;
+  }
+  .section .Content .Content2 .para1 {
+    font-size: 40px;
+  }
+  .section .Content .Content2 .para2 {
+    font-size: 13px;
+  }
+  .section .Deals p {
+    font-size: 35px;
+  }
+  .section .Details .content .Big {
+    font-size: 35px;
+  }
+  .section .Benefits .Boxx1 .Small {
+    font-size: 10px;
+  }
+  .section .Benefits .Boxx1 .Big {
+    font-size: 20px;
+  }
+}
+@media (max-width: 930px) {
+  .section .Content {
+    height: 350px;
+  }
+  .section .NavBar .Button {
+    display: none;
+  }
+  .section .Deals p {
+    font-size: 30px;
+  }
+  .section .Details .content .Big {
+    font-size: 30px;
+  }
+  .section .Benefits .Boxx1 .Small {
+    font-size: 8px;
+  }
+}
+@media (max-width: 820px) {
+  .section .Content {
+    height: 300px;
+  }
+  .section .Content .Content2 .para1 {
+    font-size: 35px;
+  }
+  .section .Content .Content2 .para2 {
+    font-size: 12px;
+  }
+}
+@media (max-width: 750px) {
+  .section .Content {
+    display: block;
+    height: auto;
+    margin-top: 0;
+    padding: 8px;
+  }
+  .section .Content .Content1 {
+    display: block;
+    position: relative;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%);
+  }
+  .section .Content .Content2 {
+    display: block;
+    padding: 0;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .section .Content .Content2 .para1 {
+    position: static;
+  }
+  .section .Content .Content2 .para2 {
+    position: static;
+  }
+  .section .Review {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+  .section .Details {
+    display: block;
+    margin-top: 20px;
+  }
+  .section .Details .content {
+    padding: 20px;
+    width: 100%;
+  }
+  .section .Details .content .Button {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .section .Details .magic {
+    text-align: center;
+  }
+}/*# sourceMappingURL=Home.css.map */

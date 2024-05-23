@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useRef, useEffect } from 'react';
+import Home from "./Home";
+import { initializeFluidSimulation } from './fluidSimulation'; // Import the fluid simulation
 
-function App() {
+export default function App() {
+  const canvasRef = useRef(null);
+
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    initializeFluidSimulation(canvas);
+
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <canvas ref={canvasRef} style={{ width: '100%', height: '100%' }}></canvas>
+      <Home />
     </div>
   );
 }
-
-export default App;
