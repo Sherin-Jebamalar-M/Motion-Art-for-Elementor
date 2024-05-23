@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Motion-Art-for-Elementor/static/css/main.f5c9c64e.css",
-    "main.js": "/Motion-Art-for-Elementor/static/js/main.2eae7350.js",
+    "main.js": "/Motion-Art-for-Elementor/static/js/main.3de3a46b.js",
     "index.html": "/Motion-Art-for-Elementor/index.html",
     "main.f5c9c64e.css.map": "/Motion-Art-for-Elementor/static/css/main.f5c9c64e.css.map",
-    "main.2eae7350.js.map": "/Motion-Art-for-Elementor/static/js/main.2eae7350.js.map"
+    "main.3de3a46b.js.map": "/Motion-Art-for-Elementor/static/js/main.3de3a46b.js.map"
   },
   "entrypoints": [
     "static/css/main.f5c9c64e.css",
-    "static/js/main.2eae7350.js"
+    "static/js/main.3de3a46b.js"
   ]
 }
