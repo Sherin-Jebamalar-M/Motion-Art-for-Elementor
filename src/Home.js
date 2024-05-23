@@ -1,11 +1,23 @@
 import React from 'react'
 import './Home.scss'
 import { FaArrowRight } from "react-icons/fa6";
+import img1 from './images/motionarteffect-img1.png';
+import img2 from './images/motionarteffect-img2.png';
+import img3 from './images/motionarteffect-img3.png';
+import img4 from './images/motionarteffect-img4.png';
+import img5 from './images/motionarteffect-img5.png';
+import img6 from './images/motionarteffect-img6.png';
+import img7 from './images/motionarteffect-img7.png';
+import img8 from './images/motionarteffect-img8.png';
+import img9 from './images/motionarteffect-img9.png';
+import img10 from './images/motionarteffect-img10.png';
+import img11 from './images/motionarteffect-img11.png';
+import logo from './images/MotionArtEffect-logo.png';
 function Home() {
     return (
         <div className='section'>
             <div className='NavBar'>
-                <img src="./images/MotionArtEffect-logo.png" />
+                <img src={logo} />
                 <div className='Button'>
                     <p><a href="https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891" target="_blank">Purchase Now</a></p>
                 </div>
@@ -30,30 +42,30 @@ function Home() {
             <div className='Review-Container'>
                 <div className='Ratings'>
                     <div className='star1'>
-                        <img src='./images/MotionArtEffect-img2.png'></img>
+                        <img src={img2} />
                     </div>
                     <div>
-                        <img src='./images/MotionArtEffect-img4.png'></img>
+                        <img src={img4} />
                         <p>4.5 Score, 9 Reviews</p>
                     </div>
 
                 </div>
                 <div className='Ratings'>
                     <div className='star1'>
-                        <img src='./images/MotionArtEffect-img1.png'></img>
+                        <img src={img1}/>
                     </div>
                     <div>
-                        <img src='./images/MotionArtEffect-img4.png'></img>
+                        <img src={img4}/>
                         <p>4.5 Score, 9 Reviews</p>
                     </div>
 
                 </div>
                 <div className='Ratings'>
                     <div className='star1'>
-                        <img src='./images/MotionArtEffect-img3.png'></img>
+                        <img src={img3}/>
                     </div>
                     <div>
-                        <img src='./images/MotionArtEffect-img4.png'></img>
+                        <img src={img4}/>
                         <p>4.5 Score, 9 Reviews</p>
                     </div>
 
@@ -68,7 +80,7 @@ function Home() {
 
                 </div>
                 <div className='magic'>
-                    <img src='./images/MotionArtEffect-img5.png'></img>
+                    <img src={img5}/>
                 </div>
             </div>
             <div className='Deals'>
@@ -80,13 +92,13 @@ function Home() {
                     <p className='Small'>Apply on section is a game-changer, offering an unparalleled way to manage applications directly from your website.
 
                     </p>
-                    <img src='./images/MotionArtEffect-img11.png'></img>
+                    <img src={img11} />
 
                 </div>
                 <div className='Card down'>
                     <p className='Big'>Apply On Page</p>
                     <p className='Small'>Take your website to new heights with Motion Art for Elementor. Embrace the power of motion and animation.</p>
-                    <img src='./images/MotionArtEffect-img11.png'></img>
+                    <img src={img10} />
 
 
                 </div>
@@ -99,7 +111,7 @@ function Home() {
                     <p className='Small'>
                         Rest assured, Motion Art is designed to be compatible with all major web browsers.
                     </p>
-                    <img src='./images/MotionArtEffect-img8.png'></img>
+                    <img src={img8}/>
 
 
                 </div>
@@ -118,17 +130,17 @@ function Home() {
             </div>
             <div className='Benefits'>
                 <div className='Boxx1'>
-                    <img src='./images/MotionArtEffect-img9.png'></img>
+                    <img src={img9}/>
                     <p className='Big'>Light Weight</p>
                     <p className='Small'>Motion Art for Elementor is designed to be lightweight.</p>
                 </div>
                 <div className='Boxx1'>
-                    <img src='./images/MotionArtEffect-img6.png'></img>
+                    <img src={img6}/>
                     <p className='Big'>100% Responsive</p>
                     <p className='Small'>Create a consistent visual experience across all devices.</p>
                 </div>
                 <div className='Boxx1'>
-                    <img src='./images/MotionArtEffect-img7.png'></img>
+                    <img src={img7}/>
                     <p className='Big'>User Friendly Interface</p>
                     <p className='Small'>Ensure a smooth experience for both applicants and administrators.</p>
                 </div>
