@@ -19,7 +19,7 @@ function Home() {
             <div className='NavBar'>
                 <img src={logo} />
                 <div className='Button'>
-                    <p><a href="https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891" target="_blank">Purchase Now</a></p>
+                    <p><a href="#" target="_blank">Purchase Now</a></p>
                 </div>
 
             </div>
@@ -75,7 +75,7 @@ function Home() {
                     <p className='Big'>Turn Your Cursor Into A Colorful Magic Wand & Charm Your Visitors</p>
                     <p className='small'>Motion Art for Elementor is a groundbreaking plugin that empowers you to effortlessly infuse your website with visually stunning motion art elements.</p>
                     <div className='Button'><p>
-                        <a href='https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891' target="_blank">Purchase From Envato</a>
+                        <a href='#' target="_blank">Purchase From Envato</a>
                     </p><p className='icon'><FaArrowRight /></p></div>
 
                 </div>
@@ -152,10 +152,10 @@ function Home() {
                     </p>
                     <p className='p2'>
                         <li>
-                            <a href='https://qodematrix.com/docs/motion-art-for-elementor/' target="_blank">Documentation</a>
+                            <a href='#' target="_blank">Documentation</a>
                         </li>
                         <li>
-                            <a href='https://support.qodematrix.com/' target="_blank">Support</a>
+                            <a href='#' target="_blank">Support</a>
                         </li>
                     </p>
                 </div>
